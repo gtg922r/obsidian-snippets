@@ -1,0 +1,9 @@
+.cm-s-obsidian .cm-hmd-frontmatter {
+  /* font-size: var(--font-adaptive-smaller); */
+  color: var(--text-faint);
+}
+
+div.is-live-preview div.cm-line:first-of-type span.cm-hmd-frontmatter:first-of-type::after {
+  /* font-size: var(--font-adaptive-smaller); */
+  color: var(--text-faint);
+}

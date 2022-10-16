@@ -1,0 +1,27 @@
+div.is-live-preview div.cm-line:first-of-type span.cm-hmd-frontmatter:first-of-type::after {
+    content: "</>";
+    display: inline;
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: max-content;}
+
+div.is-live-preview div.cm-line:first-of-type span.cm-hmd-frontmatter:first-of-type {
+    display: inline;
+    visibility: hidden;
+    position: relative;
+}
+
+div.is-live-preview span.cm-hmd-frontmatter {
+    display: none;
+}
+
+div.is-live-preview .cm-active > span.cm-hmd-frontmatter {
+    display: inline !important;
+}
+
+div.is-live-preview .cm-active ~ .cm-line > span.cm-hmd-frontmatter {
+    visibility: visible;
+    display: inline !important;
+}
